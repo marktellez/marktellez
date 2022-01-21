@@ -2,7 +2,7 @@
 
 ## I am a full time mentor and seasoned programmer!
 
-- I teach JavaScript, React, Ruby on Rails, and HTML/CSS via live mentorship @ [DevmentorLive]
+- I teach JavaScript, React, Blockchain, and HTML/CSS via live mentorship @ [DevmentorLive]
 - I release screencasts weekly on JavaScript and React @ [Youtube]
 - According to [16Personalities], I am a Mediator Personality, along with JRR Tolkien, William Shakespeare and Thomas Jefferson!
 
