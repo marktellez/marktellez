@@ -7,6 +7,12 @@
 - :tv: I release screencasts weekly on JavaScript and React @ [Youtube]
 - :fist: According to [16Personalities], I am a Mediator Personality, along with JRR Tolkien, William Shakespeare and Thomas Jefferson!
 
+## Need help on your javascript/react app?
+
+I am sort of like a ghost writer, but for apps. I build it, you get to watch how I do it, it launches on time, with few bugs, and you get to take the credit!
+
+We can work in hourly session blocks, and you can have a recording of our work to review at your own pace!
+
 ## I love defi, web3 and blockchain
 
 If you are looking for someone to join your Defi project or you need a consultant for your web3/solidity project, shoot me an email: mark@devmentor.live
