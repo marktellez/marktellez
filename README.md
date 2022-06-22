@@ -2,7 +2,7 @@
 
 # Been writing code for over 25 years, learned from it
 
-- :tada: I focus mainly on web3 apps built using NextJS React, Ethers, Polygon, and of course, Solidity
+- :tada: I focus mainly on web 2 & 3 apps built using NextJS React, Ethers, Polygon, and of course, Solidity
 - :computer: I teach JavaScript, React, Blockchain, and HTML/CSS via live mentorship @ [DevmentorLive]
 - :tv: I release screencasts weekly on JavaScript and React @ [Youtube]
 - :fist: According to [16Personalities], I am a Mediator Personality, along with JRR Tolkien, William Shakespeare and Thomas Jefferson!
