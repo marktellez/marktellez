@@ -1,4 +1,4 @@
-## Hello world! My name is [mark tellez] 👋
+## Hello world! My name is [Mark Tellez] 👋
 
 I am a Sr. Software developer who loves JavaScript, React, Next, and Mongo! I spend about half of my time mentoring new, jr, and mid level developers and making Youtube videos, tutorials, and even small films!
 
