@@ -1,4 +1,8 @@
-## Hello world! My name is Mark Tellez 👋
+## Hello world! My name is [mark tellez] 👋
+
+I am a Sr. Software developer who loves JavaScript, React, Next, and Mongo! I spend about half of my time mentoring new, jr, and mid level developers and making Youtube videos, tutorials, and even small films!
+
+I am available for hire to supercharge your development team with all my years of experience in web devleopment.
 
 # Been writing code for over 25 years, learned from it
 
@@ -13,16 +17,11 @@ I am sort of like a ghost writer, but for apps. I build it, you get to watch how
 
 We can work in hourly session blocks, and you can have a recording of our work to review at your own pace!
 
-## I love defi, web3 and blockchain
-
-If you are looking for someone to join your Defi project or you need a consultant for your web3/solidity project, shoot me an email: mark@devmentor.live
-
-Here are some examples of my personal web3/solidity work: [solidity-use-cases], [web3-use-cases]
 
 ## Happy hacking!
 
 [devmentorlive]: https://devmentor.live/?utm_source=github&utm_medium=readme&utm_campaign=about%20me
+[Mark Tellez]: https://marktellez.com/?utm_source=github&utm_medium=readme&utm_campaign=about%20me
 [youtube]: https://youtube.com/c/devmentorlive?utm_source=github&utm_medium=readme&utm_campaign=about%20me
 [16personalities]: https://www.16personalities.com/profiles/3cb740f62f842
-[solidity-use-cases]: https://github.com/marktellez/solidity-use-cases
-[web3-use-cases]: https://github.com/marktellez/web3-use-cases
+
