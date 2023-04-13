@@ -1,11 +1,12 @@
 ## Hello world! My name is [Mark Tellez] 👋
 
-I am a Sr. Software developer who loves JavaScript, React, Next, and Mongo! I spend about half of my time mentoring new, jr, and mid level developers and making Youtube videos, tutorials, and even small films!
+I am a Sr. Software developer who spends most of his time researching machine learning and large language models. My specialty is helping developers and companies leverage artificial intelligence for maximum results with minimum input!
 
 I am available for hire to supercharge your development team with all my years of experience in web devleopment.
 
 # Been writing code for over 25 years, learned from it
 
+- :brain: My passion is levering AI to code, create graphics, and even video!
 - :tada: I focus mainly on web 2 & 3 apps built using NextJS React, Ethers, Polygon, and of course, Solidity
 - :computer: I teach JavaScript, React, Blockchain, and HTML/CSS via live mentorship @ [DevmentorLive]
 - :tv: I release screencasts weekly on JavaScript and React @ [Youtube]
