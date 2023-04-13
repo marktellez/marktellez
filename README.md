@@ -15,7 +15,7 @@ I am available for hire to supercharge your development team with all my years o
 - :brain: My passion is levering AI to code, create graphics, and even video!
 - :tada: I focus mainly on web 2 & 3 apps built using NextJS React, Ethers, Polygon, and of course, Solidity
 - :computer: I teach JavaScript, React, Blockchain, and HTML/CSS via live mentorship @ [DevmentorLive]
-- :tv: I release screencasts weekly on JavaScript and React @ [Youtube]
+- :tv: I make videos on AI and LLMs @ [Youtube]
 - :fist: According to [16Personalities], I am a Mediator Personality, along with JRR Tolkien, William Shakespeare and Thomas Jefferson!
 
 ## Need help on your javascript/react app?
@@ -30,7 +30,7 @@ We can work in hourly session blocks, and you can have a recording of our work t
 [aipaired]: https://aipaired.com
 [devmentorlive]: https://devmentor.live/?utm_source=github&utm_medium=readme&utm_campaign=about%20me
 [Mark Tellez]: https://marktellez.com/?utm_source=github&utm_medium=readme&utm_campaign=about%20me
-[youtube]: https://youtube.com/c/devmentorlive?utm_source=github&utm_medium=readme&utm_campaign=about%20me
+[youtube]: https://youtube.com/@devmentorlive
 [16personalities]: https://www.16personalities.com/profiles/3cb740f62f842
 [The future of coding with AI]: https://aipaired.com
 
