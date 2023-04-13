@@ -1,4 +1,4 @@
-## Hello world! My name is [Mark Tellez] 👋
+## Hello world! My name is [Marcus Tellez] 👋
 
 I am a Sr. Software developer who spends most of his time researching machine learning and large language models. My specialty is helping developers and companies leverage artificial intelligence for maximum results with minimum input!
 
