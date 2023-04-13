@@ -1,6 +1,6 @@
 ## Hello world! My name is [Marcus Tellez] 👋
 
-I am a Sr. Software developer who spends most of his time researching machine learning and large language models. My specialty is helping developers and companies leverage artificial intelligence for maximum results with minimum input!
+I am a Sr. Software engineer and AI researcher who spends most of his time using machine learning and large language models. My specialty is helping developers and companies leverage artificial intelligence for maximum results with minimum input!
 
 ## Want to see how I can help you and your business goals? Check out my website: [aipaired]
 
