@@ -13,7 +13,7 @@ I am available for hire to supercharge your development team with all my years o
 # Been writing code for over 25 years, learned from it
 
 - :brain: My passion is levering AI to code, create graphics, and even video!
-- :tada: I focus mainly on web 2 & 3 apps built using NextJS React, Ethers, Polygon, and of course, Solidity
+- :tada: I build web 2 & 3 apps built using GPT, NextJS React, TailwindCSS, Ethers, Polygon, and of course, Solidity
 - :computer: I teach JavaScript, React, Blockchain, and HTML/CSS via live mentorship @ [DevmentorLive]
 - :tv: I make videos on AI and LLMs @ [Youtube]
 - :fist: According to [16Personalities], I am a Mediator Personality, along with JRR Tolkien, William Shakespeare and Thomas Jefferson!
