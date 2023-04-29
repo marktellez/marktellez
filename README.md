@@ -35,10 +35,11 @@ We can work in hourly session blocks, and you can have a recording of our work t
 
 You can find me all over the web....
 
-[aipaired](https://aipaired.com)
-[GPTForUs](https://gptfor.us)
-[devmentorlive](https://devmentor.live/)
-[Mark Tellez](https://marktellez.com)
-[youtube](https://youtube.com/@devmentorlive)
+- [AIPaired](https://aipaired.com)
+- [GPTForUs](https://gptfor.us)
+- [DevmentorLive](https://devmentor.live/)
+- [Youtube](https://youtube.com/@devmentorlive)
+- [Mark Tellez](https://marktellez.com)
+
 
 
