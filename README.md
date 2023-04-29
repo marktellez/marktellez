@@ -33,11 +33,12 @@ We can work in hourly session blocks, and you can have a recording of our work t
 
 ## Happy hacking!
 
-[aipaired]: https://aipaired.com
-[GPTForUs]: https://gptfor.us
-[devmentorlive]: https://devmentor.live/?utm_source=github&utm_medium=readme&utm_campaign=about%20me
-[Mark Tellez]: https://marktellez.com/?utm_source=github&utm_medium=readme&utm_campaign=about%20me
-[youtube]: https://youtube.com/@devmentorlive
-[16personalities]: https://www.16personalities.com/profiles/3cb740f62f842
-[The future of coding with AI]: https://aipaired.com
+You can find me all over the web....
+
+[aipaired](https://aipaired.com)
+[GPTForUs](https://gptfor.us)
+[devmentorlive](https://devmentor.live/)
+[Mark Tellez](https://marktellez.com)
+[youtube](https://youtube.com/@devmentorlive)
+
 
