@@ -10,7 +10,7 @@ I am a Sr. Software engineer and AI researcher who spends most of his my using m
 * ✍🏼 I have always been in love with writing and teaching
 * ✉️ You can contact me at mark@devmentor.live
 
-## Want to see how I can help you and your business goals? Check out my website: [aipaired]
+## Want to see how I can help you and your business goals? [Check out my website](https://devmentor.live/hire)
 
 I am available for hire to supercharge your development team with all my years of experience in web devleopment.
 
