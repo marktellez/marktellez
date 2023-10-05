@@ -2,7 +2,7 @@
 
 I am a Sr. Software Engineer and AI researcher who spends most of his my using machine learning and large language models. My specialty is helping developers and companies leverage artificial intelligence for maximum results with minimum input!
 
-### I have been a programmer for almost 30 years!
+### I have been a programmer and technologist for almost 30 years!
 
 * 🧠 My passion is leveraging AI for software development and more
 * 💻 I build software with the aid of Artificial Intelligence for a living
