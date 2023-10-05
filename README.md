@@ -1,6 +1,6 @@
 ## Hello world! 👋
 
-I am a Sr. Software engineer and AI researcher who spends most of his my using machine learning and large language models. My specialty is helping developers and companies leverage artificial intelligence for maximum results with minimum input!
+I am a Sr. Software Engineer and AI researcher who spends most of his my using machine learning and large language models. My specialty is helping developers and companies leverage artificial intelligence for maximum results with minimum input!
 
 ### I have been a programmer for almost 30 years!
 
