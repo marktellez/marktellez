@@ -1,3 +1,5 @@
+https://aialignmenttest.com/ - take your AI Compass test and find out where you fit in: E/ACC EA E/DEC Transhumanist
+
 ## Hello world! 👋
 
 I am a Sr. Software Engineer and AI researcher who spends most of his my using machine learning and large language models. My specialty is helping developers and companies leverage artificial intelligence for maximum results with minimum input!
