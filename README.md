@@ -1,8 +1,6 @@
 ## Hello world! 👋
 
-I am a Sr. Software Engineer and AI researcher who spends most of his time delving into machine learning and modern model architecture and tools. 
-
-My day job is being the Chief AI Officer at [FreeRoyalties](https://freeroyalties.ai) where I build RAG enabled chatbots and manage the day to day AI adoption for both our technology and business teams!
+I am a Software Archietct by trade and AI researcher who spends most of his time delving into machine learning and modern model architecture and tools. Currently I am solving as many problems as I can using various AI technologies as the Chief AI Officer for [FreeRoyalties](https://freeroyalties.ai) It's a lot of RAG and training our own models, and building agents that can code, answer emails, handle customer service, help our BusDev team, and more!
 
 ### I have been a programmer and technologist for almost 30 years!
 
