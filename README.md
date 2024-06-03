@@ -1,6 +1,6 @@
 ## Hello world! 👋
 
-I am a Software Archietct by trade and AI researcher who spends most of his time delving into machine learning and modern model architecture and tools. Currently I am solving as many problems as I can using various AI technologies as the Chief AI Officer for [FreeRoyalties](https://freeroyalties.ai) It's a lot of RAG and training our own models, and building agents that can code, answer emails, handle customer service, help our BusDev team, and more!
+I am a Software Architect by trade and AI researcher who spends most of his time delving into machine learning and modern model architecture and tools. Currently I am solving as many problems as I can using various AI technologies as the Chief AI Officer for [FreeRoyalties](https://freeroyalties.ai) 
 
 ### I have been a programmer and technologist for almost 30 years!
 
