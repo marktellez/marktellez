@@ -48,17 +48,29 @@ export default function Home() {
     <div className="min-h-screen">
       <section className="min-h-[70vh] flex items-center justify-center">
         <div className="text-center space-y-8 p-8 max-w-3xl mx-auto">
-          <div className="mx-auto w-32 h-32 mb-8 overflow-hidden rounded-full border-2 border-white/20">
+          <div className="mx-auto w-32 h-32 mb-4 overflow-hidden rounded-full border-2 border-white/20">
             <img
               src="/marktellez.jpg"
               alt="Mark Tellez"
               className="w-full h-full object-cover"
             />
           </div>
+          <p className="text-white/70 text-sm italic max-w-md mx-auto">
+            Off-grid farmer-engineer. Ex-sailor building solar gadgets, water pumps, and hydroponics.
+            Powered by bio-gas, sheep, chickens, and code. 🌱🐑💻
+          </p>
           <h1 className="text-6xl font-bold tracking-tight">Mark Tellez</h1>
           <p className="text-xl text-white/90 leading-relaxed">
             10x developer and autodidact, writing code daily since 1997.
-            From LISP to machine learning, building elegant solutions at VoxBird.
+            From LISP to machine learning, building elegant solutions at{' '}
+            <a
+              href="https://voxbird.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sky-300 hover:underline"
+            >
+              VoxBird
+            </a>.
           </p>
           <div className="flex gap-4 justify-center">
             <a
@@ -159,7 +171,15 @@ export default function Home() {
         <section className="text-center max-w-2xl mx-auto">
           <h2 className="text-2xl font-bold mb-6">Contact</h2>
           <p className="text-white/80 mb-8">
-            Currently focused full-time on AI voice technology at VoxBird.
+            Currently focused full-time on AI voice technology at{' '}
+            <a
+              href="https://voxbird.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sky-300 hover:underline"
+            >
+              VoxBird
+            </a>.
             Feel free to reach out for AI and ML discussions or speaking opportunities.
           </p>
           <a
