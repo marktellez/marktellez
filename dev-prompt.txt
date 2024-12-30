@@ -1,0 +1,71 @@
+Project Architecture Guidelines
+
+Core Architecture
+Next.js 15+ App Router only (no pages directory)
+MongoDB database with RESTful API routes
+State provider/hook pattern per section
+Functional programming preferred over state manipulation
+Each section has dedicated layout with consistent look/feel
+
+File Structure
+/src
+/app - Routes and page components (App Router structure)
+/shared - Reusable components used in 3+ places
+/lib - Utility functions and core services
+/api - API route handlers
+
+Component Guidelines
+Shared Components (3+ uses):
+Location: @/shared/
+Must follow React library guidelines
+Example: @/shared/buttons/outline
+
+Section Components (1-2 uses):
+Stay within feature/section folder
+Example: settings/modal.jsx belongs in settings folder
+
+File Naming & Types
+Kebab-case for all files: button.jsx not Button.jsx
+.jsx for ANY files with JSX/markup
+.js for files with NO markup (utils, configs)
+No TypeScript (.ts/.tsx) files
+
+Code Organization
+"use client" for interactive components
+"use server" for layouts and API routes
+Prefer functional programming patterns:
+Use map/filter/reduce
+Derive values from state, don't duplicate
+Example: Count items in array vs storing count
+
+Utility Libraries (/src/lib)
+mongodb.js - Database connections/helpers
+string.js - String manipulation
+array.js - Array utilities
+
+Technology Choices
+Yes:
+MongoDB
+RESTful APIs
+State Provider/Hook pattern
+TailwindCSS
+Geist font family
+Dark/light theme via CSS variables
+
+No:
+Redux
+Reducers/Actions pattern
+Pages Router
+TypeScript
+Class components
+
+Paths & Imports
+@ alias points to ./src/
+Example: @/shared/buttons/outline
+
+Mongodb
+Never use createdAt or UpdatedAt
+Dont affix "id" to the key name - user, not userId
+use aggregations when pulling data
+
+Follow these guidelines for all code suggestions and implementations.
