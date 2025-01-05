@@ -1,9 +1,17 @@
+import Section from './section';
+
 export default function Home() {
   const currentWork = {
     title: "VoxBird AI",
     url: "https://voxbird.ai",
     description: "Building and coding advanced AI voice models and ML pipelines. Writing code daily for dataset curation, model training, and production systems.",
-    tags: ["Machine Learning", "AI Models", "Data Engineering"]
+    tags: ["Machine Learning", "AI Models", "Data Engineering"],
+    media: [
+      {
+        title: "How I Went From a Web Developer to an AI Engineer",
+        url: "https://www.codementor.io/@marktellez/how-and-why-i-built-how-i-went-from-a-web-developer-to-a-ai-engineer-2no6h2hgqd"
+      }
+    ]
   };
 
   const archivedWork = [
@@ -45,8 +53,8 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen w-full bg-[var(--background)] mx-auto max-w-7xl">
-      <section className="min-h-[70vh] flex items-center justify-center">
+    <div className="min-h-screen">
+      <Section className="min-h-[70vh] flex items-center justify-center">
         <div className="text-center space-y-8 p-8 max-w-3xl mx-auto">
           <div className="mx-auto w-32 h-32 mb-4 overflow-hidden rounded-full border-2 border-white/20">
             <img
@@ -89,113 +97,118 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section>
+      </Section>
 
-      <main className="max-w-4xl mx-auto px-8 py-16 space-y-24">
-        <section>
-          <h2 className="text-2xl font-bold mb-12">VoxBird AI</h2>
+      <Section>
+        <h2 className="text-2xl font-bold mb-12">VoxBird AI</h2>
+        <div className="space-y-8">
+          <a
+            href={currentWork.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group"
+          >
+            <p className="text-white/80 text-lg mb-4">
+              {currentWork.description}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {currentWork.tags.map((tag) => (
+                <span key={tag} className="tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        </div>
+      </Section>
+
+      {currentWork.media && currentWork.media.length > 0 && (
+        <Section background="bg-slate-900/80 backdrop-blur-2xl">
+          <h2 className="text-2xl font-bold mb-8">Media</h2>
           <div className="space-y-4">
+            {currentWork.media.map((media) => (
+              <a key={media.title} href={media.url} target="_blank" rel="noopener noreferrer" className="group">
+                <p className="text-white/80 text-lg hover:text-sky-300 transition-colors">{media.title}</p>
+              </a>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      <Section>
+        <h2 className="text-2xl font-bold mb-12">Experience</h2>
+        <div className="grid md:grid-cols-3 gap-12">
+          {expertise.map(({ area, skills }) => (
+            <div key={area} className="space-y-4">
+              <h3 className="text-lg font-semibold">{area}</h3>
+              <div className="flex flex-wrap gap-2">
+                {skills.map((skill) => (
+                  <span key={skill} className="tag">{skill}</span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      <Section>
+        <h2 className="text-2xl font-bold mb-12">Highlights</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          {highlights.map((highlight, index) => (
+            <div key={index} className="flex items-center space-x-4">
+              <span className="text-white/20">•</span>
+              <p>{highlight}</p>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      <Section>
+        <h2 className="text-2xl font-bold mb-12">Archived Projects</h2>
+        <div className="space-y-8">
+          {archivedWork.map((work) => (
             <a
-              href={currentWork.url}
+              key={work.title}
+              href={work.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group"
+              className="group block"
             >
-              <p className="text-white/80 text-lg mb-4">
-                {currentWork.description}
+              <h3 className="text-xl font-bold mb-4 group-hover:text-sky-300">
+                {work.title}
+              </h3>
+              <p className="text-white/60">
+                {work.description}
               </p>
-              <div className="flex flex-wrap gap-2">
-                {currentWork.tags.map((tag) => (
+              <div className="flex flex-wrap gap-2 mt-4">
+                {work.tags.map((tag) => (
                   <span key={tag} className="tag">{tag}</span>
                 ))}
               </div>
             </a>
-          </div>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-bold mb-12">Experience</h2>
-          <div className="grid md:grid-cols-3 gap-12">
-            {expertise.map(({ area, skills }) => (
-              <div key={area} className="space-y-4">
-                <h3 className="text-lg font-semibold">{area}</h3>
-                <div className="flex flex-wrap gap-2">
-                  {skills.map((skill) => (
-                    <span key={skill} className="tag">{skill}</span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-bold mb-12">Highlights</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            {highlights.map((highlight, index) => (
-              <div key={index} className="flex items-center space-x-4">
-                <span className="text-white/20">•</span>
-                <p>{highlight}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-bold mb-12">Archived Projects</h2>
-          <div className="space-y-8">
-            {archivedWork.map((work) => (
-              <a
-                key={work.title}
-                href={work.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block"
-              >
-                <h3 className="text-xl font-bold mb-4 group-hover:text-sky-300">
-                  {work.title}
-                </h3>
-                <p className="text-white/60">
-                  {work.description}
-                </p>
-                <div className="flex flex-wrap gap-2 mt-4">
-                  {work.tags.map((tag) => (
-                    <span key={tag} className="tag">{tag}</span>
-                  ))}
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
-
-        <section className="text-center max-w-2xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">Contact</h2>
-          <p className="text-white/80 mb-8">
-            Currently focused full-time on AI voice technology at{' '}
-            <a
-              href="https://voxbird.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sky-300 hover:underline"
-            >
-              VoxBird
-            </a>.
-            Feel free to reach out for AI and ML discussions or speaking opportunities.
-          </p>
-          <a
-            href="mailto:mark@devmentor.live"
-            className="inline-block px-6 py-3 border border-white/20 text-white rounded-lg hover:bg-white/5 transition-all"
-          >
-            Email Me
-          </a>
-        </section>
-      </main>
-
-      <footer className="border-t border-white/10 mt-16">
-        <div className="max-w-4xl mx-auto px-8 py-8 text-center text-white/60">
-          <p>© {new Date().getFullYear()} Mark Tellez</p>
+          ))}
         </div>
-      </footer>
+      </Section>
+
+      <Section className="text-center max-w-2xl mx-auto">
+        <h2 className="text-2xl font-bold mb-6">Contact</h2>
+        <p className="text-white/80 mb-8">
+          Currently focused full-time on AI voice technology at{' '}
+          <a
+            href="https://voxbird.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sky-300 hover:underline"
+          >
+            VoxBird
+          </a>.
+          Feel free to reach out for AI and ML discussions or speaking opportunities.
+        </p>
+        <a
+          href="mailto:mark@devmentor.live"
+          className="inline-block px-6 py-3 border border-white/20 text-white rounded-lg hover:bg-white/5 transition-all"
+        >
+          Email Me
+        </a>
+      </Section>
     </div>
   );
 }
