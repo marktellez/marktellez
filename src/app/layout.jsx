@@ -77,10 +77,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={geist.variable}>
-      <body className="antialiased bg-sky-500 text-white min-h-screen">
-        <div className="mx-auto max-w-screen-xl px-6 py-12 sm:px-8">
-          {children}
-        </div>
+      <body className="antialiased bg-[var(--background)] text-[var(--foreground)] min-h-screen">
+        {children}
       </body>
     </html>
   );
